@@ -10,16 +10,17 @@ $ sudo ip netns add red
 ```
 
 After run this command linux create a namespce name with red 
-!(https://myoctocat.com/assets/images/base-octocat.svg)
-![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
-!(https://github.com/bjnandi/network-namespace/raw/main/bluens.jpg)
-!(https://github.com/bjnandi/network-namespace/raw/main/bluens.jpg)
+![redns]([https://myoctocat.com/assets/images/base-octocat.svg](https://github.com/bjnandi/network-namespace/raw/main/redns.jpg)
+
 
 Let's create another namespace:
 
 ```
 $ sudo ip netns add blue
 ```
+![bluens](https://github.com/bjnandi/network-namespace/raw/main/bluens.jpg)
+
+
 After run this command linux create a namespce name with blue
 
 Now it's time to show all namespace we created. Run following command to show namespace
