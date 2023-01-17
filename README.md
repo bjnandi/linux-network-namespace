@@ -5,7 +5,10 @@ A network namespace is a logical copy of the network stack from the host system.
 # Namespace Create
 In linux root namespace run following command
 
-'$ sudo ip netns add red'
+```
+$ sudo ip netns add red
+```
+
 After run this command linux create a namespce name with red image info
 
 Let's create another namespace:
