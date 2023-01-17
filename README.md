@@ -11,6 +11,7 @@ $ sudo ip netns add red
 
 After run this command linux create a namespce name with red 
 !(https://myoctocat.com/assets/images/base-octocat.svg)
+![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
 !(https://github.com/bjnandi/network-namespace/raw/main/bluens.jpg)
 !(https://github.com/bjnandi/network-namespace/raw/main/bluens.jpg)
 
