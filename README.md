@@ -10,7 +10,8 @@ $ sudo ip netns add red
 ```
 
 After run this command linux create a namespce name with red 
-![redns](https://github.com/bjnandi/network-namespace/raw/main/redns1.jpg)
+
+![redns](https://github.com/bjnandi/network-namespace/raw/main/redns11.jpg)
 
 
 Let's create another namespace:
@@ -18,12 +19,15 @@ Let's create another namespace:
 ```
 $ sudo ip netns add blue
 ```
-![bluens](https://github.com/bjnandi/network-namespace/raw/main/bluens1.jpg)
-
 
 After run this command linux create a namespce name with blue
 
+![bluens](https://github.com/bjnandi/network-namespace/raw/main/bluens11.jpg)
+
+
 Now it's time to show all namespace we created. Run following command to show namespace
+
+![vetch-cable]https://github.com/bjnandi/network-namespace/blob/main/vetch-cable.jpg)
 
 ```
 $ sudo ip netns list
