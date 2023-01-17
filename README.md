@@ -27,11 +27,12 @@ After run this command linux create a namespce name with blue
 
 Now it's time to show all namespace we created. Run following command to show namespace
 
-![vetch-cable](https://github.com/bjnandi/network-namespace/blob/main/vetch-cable.jpg)
-
 ```
 $ sudo ip netns list
 ```
+![vetch-cable](https://github.com/bjnandi/network-namespace/blob/main/vetch-cable.jpg)
+
+
 Now create a virtual ethernet cable pair for connecting namespaces
 
 ```
