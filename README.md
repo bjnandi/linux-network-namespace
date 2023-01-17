@@ -18,7 +18,7 @@ $ sudo ip netns add blue
 ```
 After run this command linux create a namespce name with blue
 
-### Now it's time to show all namespace we created. Run following command to show namespace
+Now it's time to show all namespace we created. Run following command to show namespace
 
 ```
 $ sudo ip netns list
