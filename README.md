@@ -10,7 +10,8 @@ $ sudo ip netns add red
 ```
 
 After run this command linux create a namespce name with red 
-!(./main/bluens.jpg)
+!(https://myoctocat.com/assets/images/base-octocat.svg)
+!(https://github.com/bjnandi/network-namespace/raw/main/bluens.jpg)
 !(https://github.com/bjnandi/network-namespace/raw/main/bluens.jpg)
 
 Let's create another namespace:
