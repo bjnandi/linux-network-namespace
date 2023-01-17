@@ -64,7 +64,7 @@ $ sudo ip netns exec red ping 192.168.10.2
 $ sudo ip netns exec blue ping 192.168.10.1
 ```
 
-##More command network namespace
+### More command network namespace
 
 Show ip adress of namespace
 ```
