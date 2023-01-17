@@ -10,7 +10,7 @@ $ sudo ip netns add red
 ```
 
 After run this command linux create a namespce name with red 
-
+! (https://github.com/bjnandi/network-namespace/raw/main/bluens.jpg)
 !(https://github.com/bjnandi/network-namespace/raw/main/bluens.jpg)
 Let's create another namespace:
 
