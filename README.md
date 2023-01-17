@@ -1,8 +1,8 @@
-# network-namespace
+# Network Namespace
 
 A network namespace is a logical copy of the network stack from the host system. Network namespaces are useful for setting up containers or virtual environments. Each namespace has its own IP addresses, network interfaces, routing tables, and so forth.
 
-Namespace Create
+# Namespace Create
 In linux root namespace run following command
 
 $ sudo ip netns add red
