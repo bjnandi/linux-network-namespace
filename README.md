@@ -11,7 +11,7 @@ $ sudo ip netns add red
 
 After run this command linux create a namespce name with red 
 
-(./redns.jpg)
+(https://github.com/bjnandi/network-namespace/blob/main/redns.jpg)
 Let's create another namespace:
 
 ```
