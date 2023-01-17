@@ -10,9 +10,8 @@ $ sudo ip netns add red
 ```
 
 After run this command linux create a namespce name with red 
-Inline-style: 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
-(https://github.com/bjnandi/network-namespace/blob/main/redns.jpg)
+
+!(https://github.com/bjnandi/network-namespace/blob/main/redns.jpg)
 Let's create another namespace:
 
 ```
