@@ -30,7 +30,7 @@ Now it's time to show all namespace we created. Run following command to show na
 ```
 $ sudo ip netns list
 ```
-![vetch-cable](https://github.com/bjnandi/network-namespace/blob/main/vetch-cable.jpg)
+![netnslist](https://github.com/bjnandi/network-namespace/blob/main/netnslist.jpg)
 
 
 Now create a virtual ethernet cable pair for connecting namespaces
@@ -38,6 +38,7 @@ Now create a virtual ethernet cable pair for connecting namespaces
 ```
 $ sudo ip link add veth-red type veth peer veth-blue
 ```
+![vetch-cable](https://github.com/bjnandi/network-namespace/blob/main/vetch-cable.jpg)
 
 Show vetch link list
 
@@ -65,6 +66,8 @@ $ sudo ip netns exec red ip link set veth-red up
 $ sudo ip netns exec blue ip addr add 192.168.10.2/24 dev veth-blue
 $ sudo ip netns exec blue ip link set veth-blue up
 ```
+![Show_vetch_link_list](https://github.com/bjnandi/network-namespace/blob/main/Show_vetch_link_list.jpg)
+
 
 Now ping from one namespace to another namespace.
 
@@ -73,6 +76,8 @@ $ sudo ip netns exec red ping 192.168.10.2
 
 $ sudo ip netns exec blue ping 192.168.10.1
 ```
+![ping_from_one_namespace](https://github.com/bjnandi/network-namespace/blob/main/ping_from_one_namespace.jpg)
+
 
 ### More command network namespace
 
