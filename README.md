@@ -45,6 +45,8 @@ Show vetch link list
 ```
 $ sudo ip link list
 ```
+![Show_vetch_link_list](https://github.com/bjnandi/network-namespace/blob/main/Show_vetch_link_list.jpg)
+
 
 Now veth cable connet to namespace
 
@@ -70,8 +72,6 @@ $ sudo ip netns exec blue ip link set veth-blue up
 ```
 
 ![rbconnect2](https://github.com/bjnandi/network-namespace/blob/main/rbconnect2..jpg)
-
-![Show_vetch_link_list](https://github.com/bjnandi/network-namespace/blob/main/Show_vetch_link_list.jpg)
 
 
 Now ping from one namespace to another namespace.
