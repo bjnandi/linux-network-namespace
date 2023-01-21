@@ -69,7 +69,7 @@ $ sudo ip netns exec blue ip addr add 192.168.10.2/24 dev veth-blue
 $ sudo ip netns exec blue ip link set veth-blue up
 ```
 
-![rbconnect2](https://github.com/bjnandi/network-namespace/blob/main/rbconnect2.jpg)
+![rbconnect2](https://github.com/bjnandi/network-namespace/blob/main/rbconnect2..jpg)
 
 ![Show_vetch_link_list](https://github.com/bjnandi/network-namespace/blob/main/Show_vetch_link_list.jpg)
 
