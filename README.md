@@ -55,6 +55,8 @@ $ sudo ip link set veth-red netns red
 ```
 $ sudo ip link set veth-blue netns blue
 ```
+![rbconnect](https://github.com/bjnandi/network-namespace/blob/main/rbconnect.png)
+
 
 
 We are almost done. Now assign ip address with in each namespace
@@ -66,6 +68,9 @@ $ sudo ip netns exec red ip link set veth-red up
 $ sudo ip netns exec blue ip addr add 192.168.10.2/24 dev veth-blue
 $ sudo ip netns exec blue ip link set veth-blue up
 ```
+
+![rbconnect2](https://github.com/bjnandi/network-namespace/blob/main/rbconnect2.png)
+
 ![Show_vetch_link_list](https://github.com/bjnandi/network-namespace/blob/main/Show_vetch_link_list.jpg)
 
 
