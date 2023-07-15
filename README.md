@@ -100,3 +100,7 @@ Enter a single namespace
 ```
 $ sudo ip netns exec red bash
 ```
+
+
+if you learn more about namespace or how to talk to other machine flow this
+https://medium.com/@bjnandi/linux-network-namespace-with-bridge-d68831d5e8a1
